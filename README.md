@@ -2,10 +2,10 @@
 
 #### Summary
 
-The project aims to synthesize speech that correlates with a specific emotion from text.
+The project aims to synthesize speech that correlates with a specific emotion. Audio samples are converted to mel spectrograms and then pix2pix cGAN neural network translates those audio samples to a spectrogram associated with a specific emotion.
 
-Audio samples use the Ryerson and CREMA-D data sets
+Audio samples come from the Toronto Emotional Speech Set: 
+https://tspace.library.utoronto.ca/handle/1807/24487
 
-Ryerson: https://zenodo.org/record/1188976#.Xoz_LHVKhuU
-CREMA-D: https://github.com/CheyneyComputerScience/CREMA-D/tree/master/docs
-
+pix2pix: 
+https://phillipi.github.io/pix2pix/
